@@ -31,5 +31,5 @@ app.use("/", require("./routes/index"));
 app.listen(port, () => {
   
   connectionUtils.init();
-  console.log("Server Started",port);
+  // console.log("Server Started",port);
 });
