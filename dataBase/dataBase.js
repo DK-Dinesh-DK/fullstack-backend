@@ -1,4 +1,5 @@
 const { MongoClient } = require("mongodb");
+
 const uri =
   "mongodb://atlas-sql-6321d1724ee99f3187b534ef-4g2is.a.query.mongodb.net/MyDatabase?ssl=true&authSource=admin";
 
