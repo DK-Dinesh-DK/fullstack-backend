@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 const uri =
-  "mongodb://atlas-sql-6321d1724ee99f3187b534ef-4g2is.a.query.mongodb.net/MyDatabase?ssl=true&authSource=admin";
+  "mongodb+srv://newUser-45:j5xgM7UaTxqh2EbJ@cluster0.kvrf7rk.mongodb.net/?appName=Cluster0";
 
 const client = new MongoClient(uri);
 const connectionUtils = {
